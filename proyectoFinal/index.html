@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PIXEL</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="titulo">
+          <h1>PIXEL</h1>
+          <img src="./images/logo3.svg" alt="logo" class="logo" />
+        </div>
+        <ul>
+          <a id="btnInicio">Inicio</a>
+          <a id="btnProductos">Productos</a>
+          <a id="btnContacto">Nosotros</a>
+        </ul>
+        <input type="text" id="inputBuscar" placeholder="Buscar productos" />
+      </nav>
+    </header>
+    <main id="fondoMain">
+      <article id="inicio">
+        <div class="tituloInicio">
+          <h1>It's time to do <span>awesome</span> stuff</h1>
+        </div>
+        <div class="bienvenida">
+          <div class="box1">
+            <img src="./images/inicio1.jpg" alt="img box1" class="boxImg">
+            <h3>Damos soluciones tecnológicas para simplificar y mejorar tu vida cotidiana</h3>
+            <p>Explorá el futuro con nuestros productos tecnológicos</p>
+          </div>
+          <div class="box2">
+            <img src="./images/inicio2.jpg" alt="img box2" class="boxImg">
+            <h3>Tecnología que inspira, calidad que perdura</h3>
+            <p>Encontrá ese producto que estabas buscando, tenemos la mejor relacion calidad precio del mercado.</p>
+          </div>
+          <div class="box3">
+            <img src="./images/inicio3.jpg" alt="img box3" class="boxImg">
+            <h3>Comprá con seguridad y confianza</h3>
+            <p>Ingresá a nuestro catalogo de productos y suma al carrito el producto que mas te guste. Contamos con garantia y multiples formas de pago</p>
+          </div>
+        </div>
+      </article>
+      <section id="ajusteSecProd">
+        <div id="productos">
+          <!-- Acá van a ir todos los productos cargados en la base de datos (catálogo) -->
+        </div>
+      </section>
+      <aside id="ajusteCarrito">
+        <div class="tituloCarrito">
+          <h1>Carrito de Compras</h1>
+          <img
+            src="./images/carrito2.svg"
+            alt="icono carrito"
+            class="iconoCarrito"
+          />
+        </div>
+        <h4 class="cantidad">
+          Cantidad de Productos:
+          <span id="cantidadProductos">0</span>
+        </h2>
+        <div id="scroll">
+          <div id="carrito">
+            <!-- Acá van a estar todos los productos que tengamos en el carrito -->
+          </div>
+        </div>
+        <h2>Total: $<span id="totalCarrito">0</span></h2>
+        <button
+          href="#"
+          id="botonComprar"
+          class="boton"
+          style="width: 100%; text-align: center"
+        >
+          Comprar
+        </button>
+      </aside>
+      <article id="contacto">
+        <!-- aca van todos los datos de contacto -->
+      
+      </article>
+    </main>
+    <footer>
+      <div class="containerLeft">
+        <div class="logofooter">
+          <h1>PIXEL</h1>
+          <img src="./images/logo3.svg" alt="logo" style="width: 40px; height: 40px; margin: 3%;" />
+        </div>
+        <p>Correo: info@pixel.com</p>
+        <p>Teléfono: +54 351 204 9674</p>
+      </div>
+      <div class="redes-sociales">
+        <a href="https://es-la.facebook.com/" target="_blank">Facebook</a>
+        <a href="https://twitter.com/?lang=es" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

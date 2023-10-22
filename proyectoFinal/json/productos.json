@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "nombre": "Iphone 14",
+    "precio": 1500,
+    "categoria": "celulares",
+    "imagen": "./images/iphone14.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Iphone 13 PRO",
+    "precio": 1300,
+    "categoria": "celulares",
+    "imagen": "./images/iphone13PRO.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Iphone 13",
+    "precio": 1100,
+    "categoria": "celulares",
+    "imagen": "./images/iphone13.webp"
+  },
+  {
+    "id": 4,
+    "nombre": "Iphone 11 PRO",
+    "precio": 800,
+    "categoria": "celulares",
+    "imagen": "./images/iphone11PRO.jpeg"
+  },
+  {
+    "id": 5,
+    "nombre": "Iphone 11",
+    "precio": 600,
+    "categoria": "celulares",
+    "imagen": "./images/iphone11.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Iphone SE",
+    "precio": 600,
+    "categoria": "celulares",
+    "imagen": "./images/iphoneSE.jpeg"
+  },
+  {
+    "id": 7,
+    "nombre": "Iphone X",
+    "precio": 450,
+    "categoria": "celulares",
+    "imagen": "./images/iphoneX.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Iphone 8",
+    "precio": 380,
+    "categoria": "celulares",
+    "imagen": "./images/iphone8.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Lenovo Laptop",
+    "precio": 2500,
+    "categoria": "computadoras",
+    "imagen": "./images/lenovo.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Macbook Air M2",
+    "precio": 3000,
+    "categoria": "computadoras",
+    "imagen": "./images/mac.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "HP Laptop",
+    "precio": 2000,
+    "categoria": "computadoras",
+    "imagen": "./images/hp.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Acer Laptop",
+    "precio": 1800,
+    "categoria": "computadoras",
+    "imagen": "./images/acer.webp"
+  },
+  {
+    "id": 13,
+    "nombre": "Samsung Laptop",
+    "precio": 2700,
+    "categoria": "computadoras",
+    "imagen": "./images/samsung.jpg"
+  },
+  {
+    "id": 14,
+    "nombre": "Auriculares Kotion",
+    "precio": 600,
+    "categoria": "auriculares",
+    "imagen": "./images/auricularesKotion.jpg"
+  },
+  {
+    "id": 15,
+    "nombre": "Auriculares Rattlesnake",
+    "precio": 500,
+    "categoria": "auriculares",
+    "imagen": "./images/auricularesRattlesnake.jpg"
+  },
+  {
+    "id": 16,
+    "nombre": "Auriculares Onikuma",
+    "precio": 700,
+    "categoria": "auriculares",
+    "imagen": "./images/auricularesOnikuma.png"
+  },
+  {
+    "id": 17,
+    "nombre": "Auriculares Logitech",
+    "precio": 750,
+    "categoria": "auriculares",
+    "imagen": "./images/auricularesLogitech.webp"
+  }
+]
